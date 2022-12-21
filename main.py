@@ -35,7 +35,6 @@ class Car(pygame.sprite.Sprite):
         if x == 0:
             self.p = 0
 
-time.sleep(10)
 cursor = Car()
 sprites = pygame.sprite.Group()
 sprites.add(cursor)
